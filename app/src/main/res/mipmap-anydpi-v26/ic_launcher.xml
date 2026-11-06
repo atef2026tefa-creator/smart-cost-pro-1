@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive launcher icon (Android 26+).
+  Background uses the new Smart Cost Pro brand color (#4A9BC7 — light blue),
+  foreground is the full Smart Cost Pro logo (white car + clipboard + calculator
+  + growth bars + arc), placed in the safe zone so the launcher mask
+  (circle / squircle / rounded square) doesn't clip it.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>

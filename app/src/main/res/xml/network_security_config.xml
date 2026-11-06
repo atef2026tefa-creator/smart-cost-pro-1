@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Stage 3.3.2: allow cleartext HTTP only in debug builds.
+
+  Debug builds connect to the local backend via http://10.0.2.2:3001 (Android
+  emulator → host machine's localhost). Android 9+ blocks cleartext by default,
+  so we need this config to allow it in debug.
+
+  Release builds should ONLY use HTTPS (https://smart-cost-pro.duckdns.org) and
+  do not need this exception — they inherit the platform default (cleartext blocked).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+
+    <!-- Debug-only: allow cleartext to the emulator's host (10.0.2.2) + localhost -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+</network-security-config>

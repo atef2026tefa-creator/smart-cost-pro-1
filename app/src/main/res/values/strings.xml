@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App identity -->
+    <string name="app_name" translatable="false">Cost App Pro</string>
+    <string name="app_short_name" translatable="false">Cost Pro</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_sections">Sections</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Financial Dashboard</string>
+    <string name="dashboard_subtitle">Monthly financial overview</string>
+    <string name="dashboard_select_month">Select month</string>
+    <string name="dashboard_no_data">No data available for this month</string>
+
+    <!-- Dashboard cards -->
+    <string name="card_total_income">Total Income</string>
+    <string name="card_total_expenses">Total Expenses</string>
+    <string name="card_net_income">Net Income</string>
+    <string name="card_savings_rate">Savings Rate</string>
+    <string name="card_expense_ratio">Expense Ratio</string>
+    <string name="card_house_medical">House &amp; Medical</string>
+    <string name="card_work">Work</string>
+    <string name="card_personal">Personal</string>
+    <string name="card_vehicle">Vehicle</string>
+    <string name="card_education">Education</string>
+    <string name="card_fuel">Fuel</string>
+    <string name="card_maintenance">Maintenance</string>
+    <string name="card_oils">Oils &amp; Filters</string>
+    <string name="card_associations">Associations</string>
+
+    <!-- Sections menu -->
+    <string name="sections_menu_title">Sections</string>
+    <string name="sections_menu_subtitle">Reorder with drag, tap to open</string>
+    <string name="sections_reorder">Reorder sections</string>
+    <string name="sections_reset_order">Reset to default order</string>
+
+    <!-- Section names -->
+    <string name="section_house">House</string>
+    <string name="section_medical">Medical</string>
+    <string name="section_work">Work</string>
+    <string name="section_personal">Personal</string>
+    <string name="section_vehicle">Vehicle</string>
+    <string name="section_education">Education</string>
+    <string name="section_income_certs">Income &amp; Certificates</string>
+    <string name="section_car_income">Car Income</string>
+    <string name="section_reports">Reports</string>
+    <string name="section_associations">Associations</string>
+
+    <!-- Expense types -->
+    <string name="expense_type_house">House</string>
+    <string name="expense_type_medical">Medical</string>
+    <string name="expense_type_work">Work</string>
+    <string name="expense_type_personal">Personal</string>
+    <string name="expense_type_student">Student</string>
+    <string name="expense_type_fuel">Fuel</string>
+    <string name="expense_type_maintenance">Maintenance</string>
+    <string name="expense_type_oil">Oils &amp; Filters</string>
+
+    <!-- Payment methods -->
+    <string name="payment_cash">Cash</string>
+    <string name="payment_card">Visa / Mastercard</string>
+    <string name="payment_transfer">Bank Transfer / Instapay</string>
+    <string name="payment_wallet">E-Wallet</string>
+    <string name="payment_cheque">Cheque / Deferred</string>
+
+    <!-- Common actions -->
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_close">Close</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_export">Export</string>
+    <string name="action_print">Print</string>
+    <string name="action_share">Share</string>
+    <string name="action_backup">Backup</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_retry">Retry</string>
+
+    <!-- Common fields -->
+    <string name="field_amount">Amount</string>
+    <string name="field_date">Date</string>
+    <string name="field_category">Category</string>
+    <string name="field_section">Section</string>
+    <string name="field_payment_method">Payment method</string>
+    <string name="field_notes">Notes</string>
+    <string name="field_title">Title</string>
+    <string name="field_name">Name</string>
+    <string name="field_type">Type</string>
+    <string name="field_date_time">Date &amp; time</string>
+    <string name="field_optional">Optional</string>
+    <string name="field_required">Required</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_ar">Arabic</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_currency">Currency</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_default_screen">Default screen</string>
+    <string name="settings_default_screen_expenses">Expenses</string>
+    <string name="settings_default_screen_dashboard">Dashboard</string>
+
+    <!-- Currencies -->
+    <string name="currency_egp" translatable="false">EGP</string>
+    <string name="currency_sar" translatable="false">SAR</string>
+    <string name="currency_aed" translatable="false">AED</string>
+    <string name="currency_usd" translatable="false">USD</string>
+    <string name="currency_eur" translatable="false">EUR</string>
+
+    <!-- Loading & errors -->
+    <string name="state_loading">Loading…</string>
+    <string name="state_empty">No data yet</string>
+    <string name="state_error">Something went wrong</string>
+    <string name="state_offline">You are offline</string>
+
+    <!-- Recent operations -->
+    <string name="recent_operations">Recent operations</string>
+    <string name="no_recent_operations">No recent operations</string>
+
+    <!-- Validation messages -->
+    <string name="error_amount_required">Amount is required</string>
+    <string name="error_amount_invalid">Amount must be a positive number</string>
+    <string name="error_date_required">Date is required</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_name_required">Name is required</string>
+
+    <!-- Backups -->
+    <string name="backup_export_success">Backup created successfully</string>
+    <string name="backup_restore_confirm">This will replace all current data. Continue?</string>
+    <string name="backup_restore_success">Restore completed successfully</string>
+    <string name="backup_restore_failed">Restore failed</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+
+    <!-- Add/Edit expense form -->
+    <string name="form_add_expense">Add expense</string>
+    <string name="form_edit_expense">Edit expense</string>
+    <string name="form_section_label">Section</string>
+    <string name="form_category_label">Category</string>
+    <string name="form_amount_label">Amount</string>
+    <string name="form_date_label">Date</string>
+    <string name="form_payment_label">Payment method</string>
+    <string name="form_notes_label">Notes (optional)</string>
+    <string name="form_title_label">Title (optional)</string>
+    <string name="form_save">Save</string>
+    <string name="form_cancel">Cancel</string>
+    <string name="form_error_amount_zero">Amount must be greater than zero</string>
+    <string name="form_error_amount_required">Amount is required</string>
+    <string name="form_error_date_required">Date is required</string>
+    <string name="form_error_title_required">Title is required</string>
+    <string name="form_saved_success">Saved successfully</string>
+
+    <!-- Medical form fields -->
+    <string name="form_medical_family_member">Family member</string>
+    <string name="form_medical_facility_name">Facility name</string>
+    <string name="form_medical_facility_type">Facility type</string>
+    <string name="form_medical_condition">Condition</string>
+    <string name="form_medical_diagnosis">Diagnosis</string>
+    <string name="form_medical_exam_cost">Exam cost</string>
+    <string name="form_medical_medication_cost">Medication cost</string>
+    <string name="form_medical_notes">Medical notes</string>
+
+    <!-- Section screens -->
+    <string name="screen_house_title">House &amp; Medical</string>
+    <string name="screen_house_subtitle">House expenses and medical records</string>
+    <string name="screen_work_title">Work</string>
+    <string name="screen_work_subtitle">Office, subscriptions, transport</string>
+    <string name="screen_personal_title">Personal</string>
+    <string name="screen_personal_subtitle">Daily expenses and subscriptions</string>
+    <string name="screen_associations_title">Associations</string>
+    <string name="screen_associations_subtitle">Savings circles (جمعية)</string>
+    <string name="screen_backup_title">Backup</string>
+    <string name="screen_backup_subtitle">Export your data to a JSON file</string>
+    <string name="screen_restore_title">Restore</string>
+    <string name="screen_restore_subtitle">Import data from a JSON file</string>
+
+    <!-- List / search / filter -->
+    <string name="search_hint">Search…</string>
+    <string name="filter_all_categories">All categories</string>
+    <string name="no_expenses_yet">No expenses yet</string>
+    <string name="no_expenses_yet_hint">Tap + to add your first expense</string>
+    <string name="no_results">No results match your search</string>
+    <string name="count_one_record">1 record</string>
+    <string name="count_many_records">%1$d records</string>
+    <string name="total_label">Total</string>
+
+    <!-- Delete confirmation -->
+    <string name="confirm_delete_title">Delete this entry?</string>
+    <string name="confirm_delete_message">This action cannot be undone.</string>
+    <string name="confirm_delete_yes">Delete</string>
+    <string name="confirm_delete_no">Keep</string>
+
+    <!-- Associations form -->
+    <string name="form_association_name">Association name</string>
+    <string name="form_association_value">Total value</string>
+    <string name="form_association_members">Member count</string>
+    <string name="form_association_installment">Installment</string>
+    <string name="form_association_role_number">Your slot number</string>
+    <string name="form_association_start_date">Start date</string>
+    <string name="form_association_payout_date">Payout date</string>
+    <string name="form_association_notes">Notes (optional)</string>
+    <string name="form_association_installment_hint">Auto: value / members</string>
+    <string name="form_association_error_members">Members must be ≥ 1</string>
+    <string name="form_association_error_role">Slot number must be 1…members</string>
+    <string name="form_association_error_value">Value must be greater than zero</string>
+    <string name="form_association_error_dates">Start date and payout date are required</string>
+    <string name="no_associations_yet">No associations yet</string>
+    <string name="no_associations_hint">Tap + to add your first association</string>
+
+    <!-- Backup / Restore -->
+    <string name="backup_export_button">Export to JSON</string>
+    <string name="backup_export_running">Creating backup…</string>
+    <string name="backup_export_done">Backup file created</string>
+    <string name="backup_export_failed">Failed to create backup</string>
+    <string name="backup_share_title">Share backup</string>
+    <string name="restore_pick_file">Pick a backup file</string>
+    <string name="restore_loading">Reading file…</string>
+    <string name="restore_invalid_file">The selected file is not a valid backup</string>
+    <string name="restore_summary_title">Backup summary</string>
+    <string name="restore_summary_schema">Schema version: %1$d</string>
+    <string name="restore_summary_exported">Exported at: %1$s</string>
+    <string name="restore_summary_expenses">Expenses: %1$d</string>
+    <string name="restore_summary_income">Income rows: %1$d</string>
+    <string name="restore_summary_certificates">Certificates: %1$d</string>
+    <string name="restore_summary_car_income">Car trips: %1$d</string>
+    <string name="restore_warning_title">Restore will replace all current data</string>
+    <string name="restore_warning_message">This will overwrite your current expenses, income, certificates and car trips. Continue?</string>
+    <string name="restore_confirm">Restore</string>
+    <string name="restore_success">Restore completed successfully</string>
+    <string name="restore_failed">Restore failed</string>
+
+    <!-- Export / Print -->
+    <string name="export_csv">Export CSV</string>
+    <string name="export_print">Print</string>
+    <string name="export_share">Share</string>
+    <string name="export_no_data">Nothing to export — the list is empty</string>
+    <string name="export_done">Exported to %1$s</string>
+    <string name="export_failed">Export failed</string>
+
+    <!-- Category labels (House) -->
+    <string name="cat_house_breakfast">Breakfast</string>
+    <string name="cat_house_lunch">Lunch</string>
+    <string name="cat_house_dinner">Dinner</string>
+    <string name="cat_house_electrical">Electrical / plumbing / paint</string>
+    <string name="cat_house_appliances">Home appliances</string>
+    <string name="cat_house_furniture">Furniture &amp; furnishings</string>
+    <string name="cat_house_bills">Bills</string>
+    <string name="cat_house_cleaning">Cleaning supplies</string>
+    <!-- Category labels (Work) -->
+    <string name="cat_work_office">Office supplies</string>
+    <string name="cat_work_maintenance">Equipment maintenance</string>
+    <string name="cat_work_subscriptions">Software subscriptions</string>
+    <string name="cat_work_hospitality">Hospitality &amp; meetings</string>
+    <string name="cat_work_transport">Work transport</string>
+    <string name="cat_work_shipping">Shipping &amp; delivery</string>
+    <!-- Category labels (Personal) -->
+    <string name="cat_personal_food">Food &amp; drink</string>
+    <string name="cat_personal_transport">Transport</string>
+    <string name="cat_personal_clothes">Clothes</string>
+    <string name="cat_personal_health">Health &amp; personal care</string>
+    <string name="cat_personal_entertainment">Entertainment</string>
+    <string name="cat_personal_gifts">Gifts</string>
+    <string name="cat_personal_subscriptions">Personal subscriptions</string>
+    <string name="cat_personal_bills">Bills &amp; communications</string>
+    <!-- Category labels (Vehicle) -->
+    <string name="cat_vehicle_gasoline_92">Gasoline 92</string>
+    <string name="cat_vehicle_gasoline_95">Gasoline 95</string>
+    <string name="cat_vehicle_gasoline_80">Gasoline 80</string>
+    <string name="cat_vehicle_diesel">Diesel</string>
+    <string name="cat_vehicle_gas">Natural gas</string>
+    <string name="cat_vehicle_maintenance">Maintenance &amp; oils</string>
+    <string name="cat_vehicle_spare_parts">Spare parts &amp; tires</string>
+    <string name="cat_vehicle_wash">Wash &amp; cleaning</string>
+    <!-- Category labels (Education) -->
+    <string name="cat_edu_lessons">Private lessons</string>
+    <string name="cat_edu_school_fees">School fees</string>
+    <string name="cat_edu_books">Books &amp; notes</string>
+    <string name="cat_edu_bus">School bus</string>
+    <string name="cat_edu_supplies">Supplies</string>
+    <string name="cat_edu_allowance">Personal allowance</string>
+    <!-- Category labels (Medical) -->
+    <string name="cat_medical_consultation">Consultation</string>
+    <string name="cat_medical_medication">Medication</string>
+    <string name="cat_medical_lab">Lab test</string>
+    <string name="cat_medical_surgery">Surgery</string>
+    <string name="cat_medical_emergency">Emergency</string>
+    <string name="cat_medical_followup">Follow-up</string>
+    <!-- Common -->
+    <string name="cat_other">Other</string>
+
+    <!-- Education stages -->
+    <string name="stage_kindergarten">Kindergarten</string>
+    <string name="stage_primary">Primary</string>
+    <string name="stage_prep">Prep</string>
+    <string name="stage_secondary">Secondary</string>
+    <string name="stage_university">University</string>
+
+    <!-- Recent operations -->
+    <string name="recent_no_amount">—</string>
+    <string name="view_all">View all</string>
+    <string name="add_button_label">Add</string>
+    <string name="edit_button_label">Edit</string>
+    <string name="delete_button_label">Delete</string>
+
+    <!-- Vehicle form fields -->
+    <string name="field_quantity">Quantity</string>
+    <string name="field_unit_price">Unit price</string>
+    <string name="field_odometer">Odometer (km)</string>
+    <string name="field_time_optional">Time (optional)</string>
+    <string name="field_supply_name">Supply / part name</string>
+    <string name="field_supply_price">Supply price</string>
+    <string name="field_labor_desc">Labor description</string>
+    <string name="field_labor_price">Labor price</string>
+    <string name="field_service_type">Service type</string>
+    <string name="field_brand">Brand</string>
+    <string name="field_product_name">Product name</string>
+    <string name="field_price">Price</string>
+    <string name="field_interval_km">Suggested interval (km)</string>
+    <string name="field_vehicle_id_optional">Vehicle ID (optional)</string>
+    <string name="field_location">Location</string>
+    <string name="field_estimated_damage">Estimated damage</string>
+    <string name="section_accidents">Accidents</string>
+
+    <!-- Education -->
+    <string name="no_students_yet">No students yet</string>
+    <string name="no_students_hint">Tap + to add your first student</string>
+    <string name="add_student">Add student</string>
+    <string name="edit_student">Edit student</string>
+    <string name="field_age">Age</string>
+    <string name="field_age_short">yrs</string>
+    <string name="field_national_id">National ID</string>
+    <string name="field_stage">Education stage</string>
+    <string name="add_expense_for_student">Add expense for student</string>
+
+    <!-- Income & Certificates -->
+    <string name="section_monthly_income">Monthly income</string>
+    <string name="section_bank_certificates">Bank certificates</string>
+    <string name="no_certificates_yet">No certificates yet</string>
+    <string name="add_certificate">Add certificate</string>
+    <string name="edit_certificate">Edit certificate</string>
+    <string name="field_certificate_number">Certificate number</string>
+    <string name="field_annual_rate">Annual rate (%)</string>
+    <string name="field_duration">Duration</string>
+    <string name="field_profit_frequency">Profit frequency</string>
+    <string name="field_issue_date">Issue date</string>
+    <string name="field_maturity_date">Maturity date</string>
+    <string name="field_monthly_equivalent">Monthly equivalent profit</string>
+    <string name="field_monthly_profit_preview">Monthly profit preview</string>
+    <string name="freq_monthly">Monthly</string>
+    <string name="freq_quarterly">Quarterly</string>
+    <string name="freq_semi_annual">Semi-annual</string>
+    <string name="freq_annual">Annual</string>
+    <string name="freq_on_maturity">On maturity</string>
+    <string name="field_salary">Salary</string>
+    <string name="field_bonuses">Bonuses</string>
+    <string name="field_other_income">Other income</string>
+    <string name="field_other_income_note">Other income note</string>
+
+    <!-- Current account -->
+    <string name="section_current_account">Current account</string>
+    <string name="deposit_label">Deposit</string>
+    <string name="withdrawal_label">Withdrawal</string>
+    <string name="field_current_account_net">Net</string>
+    <string name="no_transactions_yet">No transactions yet</string>
+    <string name="no_transactions_hint">Tap + to add your first transaction</string>
+    <string name="add_transaction">Add transaction</string>
+    <string name="edit_transaction">Edit transaction</string>
+    <string name="field_description">Description</string>
+
+    <!-- Car income -->
+    <string name="recent_trips">Recent trips</string>
+    <string name="no_trips_yet">No trips yet</string>
+    <string name="no_trips_hint">Tap + to add your first trip</string>
+    <string name="add_trip">Add trip</string>
+    <string name="edit_trip">Edit trip</string>
+    <string name="field_trip_type">Trip type</string>
+    <string name="stat_today">Today</string>
+    <string name="stat_week">Week</string>
+    <string name="stat_month">Month</string>
+    <string name="stat_total">Total</string>
+    <string name="stat_count">Count</string>
+    <string name="stat_avg">Avg fare</string>
+    <string name="stat_min">Min fare</string>
+    <string name="stat_max">Max fare</string>
+
+    <!-- Reports -->
+    <string name="period_day">Day</string>
+    <string name="period_week">Week</string>
+    <string name="period_month">Month</string>
+    <string name="period_range">Range</string>
+    <string name="field_from">From</string>
+    <string name="field_to">To</string>
+    <string name="filter_all">All</string>
+    <string name="report_range_too_wide">Range too wide — please pick a window under 370 days.</string>
+
+    <!-- Backup error messages (translated) -->
+    <string name="err_export_failed">Failed to create backup</string>
+    <string name="err_invalid_file">The selected file is not a valid backup</string>
+    <string name="err_restore_failed">Restore failed</string>
+    <string name="err_cannot_read_file">Cannot read the selected file</string>
+
+    <!-- Dashboard subtitle (corrected context) -->
+    <string name="dashboard_warning_expense_ratio">Expense ratio is above 90% of income</string>
+    <string name="dashboard_warning_negative_net">Net income is negative this month</string>
+
+    <!-- Backup screen (translated) -->
+    <string name="backup_export_description">Exports all your expenses, monthly income, certificates, car trips, students, associations, vehicles, current account, budgets and section order to a single JSON file you can share or save anywhere.</string>
+
+    <!-- Login screen (Stage 3.2) -->
+    <string name="login_app_name">Smart Cost</string>
+    <string name="login_badge">Pro</string>
+    <string name="login_tagline">Complete financial management for your expenses</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_email_placeholder">user@example.com</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_placeholder">••••••••</string>
+    <string name="login_button">Sign in</string>
+    <string name="login_or">or</string>
+    <string name="login_guest">Continue as guest</string>
+    <string name="login_create_account">Create a new account</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_invalid_credentials">Email or password is incorrect</string>
+    <string name="login_empty_email">Please enter your email</string>
+    <string name="login_empty_password">Please enter your password</string>
+
+    <!-- Home screen (Stage 3.2) -->
+    <string name="home_greeting">Hello, %1$s</string>
+    <string name="home_guest_name">Guest</string>
+    <string name="home_net_income_label">Net income — %1$s</string>
+    <string name="home_total_income">Total income</string>
+    <string name="home_total_expenses">Total expenses</string>
+    <string name="home_sections_card_title">Cost Sections</string>
+    <string name="home_sections_card_subtitle">Tap to manage all your expense sections</string>
+    <string name="home_sections_card_meta">10 sections · 23 detail screens</string>
+    <string name="home_recent_operations">Recent operations</string>
+    <string name="home_view_all">View all</string>
+
+    <!-- Marquee news (Stage 3.2) -->
+    <string name="marquee_added_expense">You added %1$s for %2$s today</string>
+    <string name="marquee_tip_save_20">💡 Save 20% of your monthly income</string>
+    <string name="marquee_net_income">📈 Net income this month: %1$s</string>
+    <string name="marquee_tip_certificates">💡 Highest-yield certificates: 18% annually</string>
+    <string name="marquee_savings_rate">💰 Savings rate: %1$d%%</string>
+    <string name="marquee_expense_warning">⚠️ Expense ratio exceeds 90% of income</string>
+
+    <!-- Profile (Stage 3.2) -->
+    <string name="profile_guest_email">guest@smartcost.pro</string>
+    <string name="profile_logout">Sign out</string>
+
+    <!-- Login (Stage 3.3 — Firebase + Biometric + OTP) -->
+    <string name="login_biometric">Sign in with biometric</string>
+    <string name="login_google">Continue with Google</string>
+    <string name="login_no_account_question">Don\'t have an account?</string>
+    <string name="login_already_have_account">Already have an account? Sign in</string>
+    <string name="login_back_to_login">Back to sign in</string>
+
+    <!-- Register (Stage 3.3) -->
+    <string name="register_title">Create a new account</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <string name="register_password_mismatch">Passwords don\'t match</string>
+    <string name="register_weak_password">Password must be at least 6 characters</string>
+    <string name="register_button">Create account</string>
+    <string name="register_email_exists">This email is already registered</string>
+
+    <!-- Forgot password (Stage 3.3) -->
+    <string name="forgot_password_title">Reset password</string>
+    <string name="forgot_password_subtitle">Enter your email and we\'ll send you a 6-digit verification code valid for 10 minutes</string>
+    <string name="forgot_password_send_otp">Send code</string>
+
+    <!-- OTP verification (Stage 3.3) -->
+    <string name="otp_title">Enter verification code</string>
+    <string name="otp_subtitle">We sent a 6-digit code to %1$s</string>
+    <string name="otp_label">Verification code</string>
+    <string name="otp_verify">Verify code</string>
+    <string name="otp_invalid">The code is incorrect</string>
+    <string name="otp_expired">The code has expired — request a new one</string>
+    <string name="otp_not_found">No code was requested for this email</string>
+    <string name="otp_used">This code has already been used</string>
+    <string name="otp_sent_success">Code sent to your email</string>
+    <string name="otp_resend">Resend code</string>
+    <string name="otp_validity_hint">Code is valid for 10 minutes only</string>
+
+    <!-- Reset password (Stage 3.3) -->
+    <string name="reset_password_title">Set a new password</string>
+    <string name="reset_password_subtitle">Enter your new password twice — they must match</string>
+    <string name="reset_password_new">New password</string>
+    <string name="reset_password_confirm">Confirm new password</string>
+    <string name="reset_password_button">Set password</string>
+    <string name="reset_password_success">Password changed successfully — please sign in</string>
+
+    <!-- Generic auth errors -->
+    <string name="auth_unknown_error">An unexpected error occurred — please try again</string>
+</resources>

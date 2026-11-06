@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 themes for Android 24+ (Compose handles the rest in code) -->
+    <style name="Theme.CostAppPro" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/brand_background_dark</item>
+        <item name="android:windowBackground">@color/brand_background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Splash screen theme used by androidx.core.splashscreen -->
+    <style name="Theme.CostAppPro.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.CostAppPro</item>
+    </style>
+</resources>

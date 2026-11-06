@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Stage 3 fix: data extraction rules.
+
+  allowBackup=false in the manifest means both cloud backup AND device
+  transfer are disabled. This file is intentionally empty so the system
+  never copies the local Room database (which contains national IDs,
+  bank certificate numbers and financial transactions) to Google Drive
+  or to a new device on transfer.
+-->
+<data-extraction-rules>
+    <!-- Intentionally empty — see allowBackup=false in the manifest. -->
+</data-extraction-rules>

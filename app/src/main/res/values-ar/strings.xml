@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App identity (override app_name with Arabic) -->
+    <string name="app_name_arabic">كوست آب برو</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">لوحة المعلومات</string>
+    <string name="nav_sections">الأقسام</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">لوحة المعلومات المالية</string>
+    <string name="dashboard_subtitle">نظرة شهرية على أمورك المالية</string>
+    <string name="dashboard_select_month">اختر الشهر</string>
+    <string name="dashboard_no_data">لا توجد بيانات لهذا الشهر</string>
+
+    <!-- Dashboard cards -->
+    <string name="card_total_income">إجمالي الدخل</string>
+    <string name="card_total_expenses">إجمالي المصروفات</string>
+    <string name="card_net_income">صافي الدخل</string>
+    <string name="card_savings_rate">نسبة الادخار</string>
+    <string name="card_expense_ratio">نسبة المصروفات</string>
+    <string name="card_house_medical">المنزل والطبي</string>
+    <string name="card_work">العمل</string>
+    <string name="card_personal">الشخصي</string>
+    <string name="card_vehicle">المركبات</string>
+    <string name="card_education">التعليم</string>
+    <string name="card_fuel">الوقود</string>
+    <string name="card_maintenance">الصيانة</string>
+    <string name="card_oils">الزيوت والفلاتر</string>
+    <string name="card_associations">الجمعيات</string>
+
+    <!-- Sections menu -->
+    <string name="sections_menu_title">الأقسام</string>
+    <string name="sections_menu_subtitle">أعد الترتيب بالسحب، اضغط للفتح</string>
+    <string name="sections_reorder">إعادة ترتيب الأقسام</string>
+    <string name="sections_reset_order">استعادة الترتيب الافتراضي</string>
+
+    <!-- Section names -->
+    <string name="section_house">المنزل</string>
+    <string name="section_medical">الطبي</string>
+    <string name="section_work">العمل</string>
+    <string name="section_personal">الشخصي</string>
+    <string name="section_vehicle">المركبات</string>
+    <string name="section_education">التعليم</string>
+    <string name="section_income_certs">الدخل والشهادات</string>
+    <string name="section_car_income">دخل السيارة</string>
+    <string name="section_reports">التقارير</string>
+    <string name="section_associations">الجمعيات</string>
+
+    <!-- Expense types -->
+    <string name="expense_type_house">منزل</string>
+    <string name="expense_type_medical">طبي</string>
+    <string name="expense_type_work">عمل</string>
+    <string name="expense_type_personal">شخصي</string>
+    <string name="expense_type_student">تعليم</string>
+    <string name="expense_type_fuel">وقود</string>
+    <string name="expense_type_maintenance">صيانة</string>
+    <string name="expense_type_oil">زيوت وفلاتر</string>
+
+    <!-- Payment methods -->
+    <string name="payment_cash">نقدي (كاش)</string>
+    <string name="payment_card">فيزا / ماستركارد</string>
+    <string name="payment_transfer">تحويل بنكي / إنستاباي</string>
+    <string name="payment_wallet">محفظة إلكترونية</string>
+    <string name="payment_cheque">شيك / آجل</string>
+
+    <!-- Common actions -->
+    <string name="action_add">إضافة</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_search">بحث</string>
+    <string name="action_filter">فلترة</string>
+    <string name="action_export">تصدير</string>
+    <string name="action_print">طباعة</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_backup">نسخة احتياطية</string>
+    <string name="action_restore">استعادة</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_retry">إعادة المحاولة</string>
+
+    <!-- Common fields -->
+    <string name="field_amount">المبلغ</string>
+    <string name="field_date">التاريخ</string>
+    <string name="field_category">التصنيف</string>
+    <string name="field_section">القسم</string>
+    <string name="field_payment_method">طريقة الدفع</string>
+    <string name="field_notes">الملاحظات</string>
+    <string name="field_title">العنوان</string>
+    <string name="field_name">الاسم</string>
+    <string name="field_type">النوع</string>
+    <string name="field_date_time">التاريخ والوقت</string>
+    <string name="field_optional">اختياري</string>
+    <string name="field_required">مطلوب</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_ar">العربية</string>
+    <string name="settings_language_en">الإنجليزية</string>
+    <string name="settings_currency">العملة</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_system">حسب النظام</string>
+    <string name="settings_default_screen">الشاشة الافتراضية</string>
+    <string name="settings_default_screen_expenses">المصروفات</string>
+    <string name="settings_default_screen_dashboard">لوحة المعلومات</string>
+
+    <!-- Loading & errors -->
+    <string name="state_loading">جاري التحميل…</string>
+    <string name="state_empty">لا توجد بيانات بعد</string>
+    <string name="state_error">حدث خطأ ما</string>
+    <string name="state_offline">أنت غير متصل</string>
+
+    <!-- Recent operations -->
+    <string name="recent_operations">أحدث العمليات</string>
+    <string name="no_recent_operations">لا توجد عمليات حديثة</string>
+
+    <!-- Validation messages -->
+    <string name="error_amount_required">المبلغ مطلوب</string>
+    <string name="error_amount_invalid">المبلغ يجب أن يكون رقمًا موجبًا</string>
+    <string name="error_date_required">التاريخ مطلوب</string>
+    <string name="error_title_required">العنوان مطلوب</string>
+    <string name="error_name_required">الاسم مطلوب</string>
+
+    <!-- Backups -->
+    <string name="backup_export_success">تم إنشاء النسخة الاحتياطية بنجاح</string>
+    <string name="backup_restore_confirm">سيتم استبدال جميع البيانات الحالية. هل تريد المتابعة؟</string>
+    <string name="backup_restore_success">تمت الاستعادة بنجاح</string>
+    <string name="backup_restore_failed">فشلت الاستعادة</string>
+
+    <!-- About -->
+    <string name="about_version">الإصدار %1$s</string>
+
+    <!-- Add/Edit expense form -->
+    <string name="form_add_expense">إضافة مصروف</string>
+    <string name="form_edit_expense">تعديل مصروف</string>
+    <string name="form_section_label">القسم</string>
+    <string name="form_category_label">التصنيف</string>
+    <string name="form_amount_label">المبلغ</string>
+    <string name="form_date_label">التاريخ</string>
+    <string name="form_payment_label">طريقة الدفع</string>
+    <string name="form_notes_label">ملاحظات (اختياري)</string>
+    <string name="form_title_label">العنوان (اختياري)</string>
+    <string name="form_save">حفظ</string>
+    <string name="form_cancel">إلغاء</string>
+    <string name="form_error_amount_zero">المبلغ يجب أن يكون أكبر من صفر</string>
+    <string name="form_error_amount_required">المبلغ مطلوب</string>
+    <string name="form_error_date_required">التاريخ مطلوب</string>
+    <string name="form_error_title_required">العنوان مطلوب</string>
+    <string name="form_saved_success">تم الحفظ بنجاح</string>
+
+    <!-- Medical form fields -->
+    <string name="form_medical_family_member">فرد الأسرة</string>
+    <string name="form_medical_facility_name">اسم المنشأة الطبية</string>
+    <string name="form_medical_facility_type">نوع المنشأة</string>
+    <string name="form_medical_condition">الحالة</string>
+    <string name="form_medical_diagnosis">التشخيص</string>
+    <string name="form_medical_exam_cost">تكلفة الكشف</string>
+    <string name="form_medical_medication_cost">تكلفة الدواء</string>
+    <string name="form_medical_notes">ملاحظات طبية</string>
+
+    <!-- Section screens -->
+    <string name="screen_house_title">المنزل والطبي</string>
+    <string name="screen_house_subtitle">مصروفات المنزل والسجلات الطبية</string>
+    <string name="screen_work_title">العمل</string>
+    <string name="screen_work_subtitle">مكتب، اشتراكات، انتقالات</string>
+    <string name="screen_personal_title">الشخصي</string>
+    <string name="screen_personal_subtitle">المصروفات اليومية والاشتراكات</string>
+    <string name="screen_associations_title">الجمعيات</string>
+    <string name="screen_associations_subtitle">الجمعيات الشهرية والادخار</string>
+    <string name="screen_backup_title">نسخة احتياطية</string>
+    <string name="screen_backup_subtitle">تصدير بياناتك إلى ملف JSON</string>
+    <string name="screen_restore_title">استعادة</string>
+    <string name="screen_restore_subtitle">استيراد البيانات من ملف JSON</string>
+
+    <!-- List / search / filter -->
+    <string name="search_hint">بحث…</string>
+    <string name="filter_all_categories">كل التصنيفات</string>
+    <string name="no_expenses_yet">لا توجد مصروفات بعد</string>
+    <string name="no_expenses_yet_hint">اضغط + لإضافة أول مصروف</string>
+    <string name="no_results">لا توجد نتائج مطابقة لبحثك</string>
+    <string name="count_one_record">سجل واحد</string>
+    <string name="count_many_records">%1$d سجل</string>
+    <string name="total_label">الإجمالي</string>
+
+    <!-- Delete confirmation -->
+    <string name="confirm_delete_title">حذف هذا السجل؟</string>
+    <string name="confirm_delete_message">لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="confirm_delete_yes">حذف</string>
+    <string name="confirm_delete_no">إبقاء</string>
+
+    <!-- Associations form -->
+    <string name="form_association_name">اسم الجمعية</string>
+    <string name="form_association_value">القيمة الإجمالية</string>
+    <string name="form_association_members">عدد الأفراد</string>
+    <string name="form_association_installment">القسط</string>
+    <string name="form_association_role_number">رقم دورك</string>
+    <string name="form_association_start_date">تاريخ البداية</string>
+    <string name="form_association_payout_date">تاريخ القبض</string>
+    <string name="form_association_notes">ملاحظات (اختياري)</string>
+    <string name="form_association_installment_hint">تلقائي: القيمة ÷ عدد الأفراد</string>
+    <string name="form_association_error_members">عدد الأفراد يجب أن يكون ≥ 1</string>
+    <string name="form_association_error_role">رقم الدور يجب أن يكون 1…عدد الأفراد</string>
+    <string name="form_association_error_value">القيمة يجب أن تكون أكبر من صفر</string>
+    <string name="form_association_error_dates">تاريخ البداية والقبض مطلوبان</string>
+    <string name="no_associations_yet">لا توجد جمعيات بعد</string>
+    <string name="no_associations_hint">اضغط + لإضافة أول جمعية</string>
+
+    <!-- Backup / Restore -->
+    <string name="backup_export_button">تصدير إلى JSON</string>
+    <string name="backup_export_running">جاري إنشاء النسخة…</string>
+    <string name="backup_export_done">تم إنشاء ملف النسخة الاحتياطية</string>
+    <string name="backup_export_failed">فشل إنشاء النسخة الاحتياطية</string>
+    <string name="backup_share_title">مشاركة النسخة الاحتياطية</string>
+    <string name="restore_pick_file">اختر ملف نسخة احتياطية</string>
+    <string name="restore_loading">جاري قراءة الملف…</string>
+    <string name="restore_invalid_file">الملف المختار ليس نسخة احتياطية صالحة</string>
+    <string name="restore_summary_title">ملخص النسخة الاحتياطية</string>
+    <string name="restore_summary_schema">إصدار المخطط: %1$d</string>
+    <string name="restore_summary_exported">تاريخ التصدير: %1$s</string>
+    <string name="restore_summary_expenses">المصروفات: %1$d</string>
+    <string name="restore_summary_income">صفوف الدخل: %1$d</string>
+    <string name="restore_summary_certificates">الشهادات: %1$d</string>
+    <string name="restore_summary_car_income">رحلات السيارة: %1$d</string>
+    <string name="restore_warning_title">ستستبدل الاستعادة كل البيانات الحالية</string>
+    <string name="restore_warning_message">سيتم استبدال المصروفات والدخل والشهادات ورحلات السيارة الحالية. هل تريد المتابعة؟</string>
+    <string name="restore_confirm">استعادة</string>
+    <string name="restore_success">تمت الاستعادة بنجاح</string>
+    <string name="restore_failed">فشلت الاستعادة</string>
+
+    <!-- Export / Print -->
+    <string name="export_csv">تصدير CSV</string>
+    <string name="export_print">طباعة</string>
+    <string name="export_share">مشاركة</string>
+    <string name="export_no_data">لا يوجد ما يُصدّر — القائمة فارغة</string>
+    <string name="export_done">تم التصدير إلى %1$s</string>
+    <string name="export_failed">فشل التصدير</string>
+
+    <!-- Category labels (House) -->
+    <string name="cat_house_breakfast">إفطار</string>
+    <string name="cat_house_lunch">غداء</string>
+    <string name="cat_house_dinner">عشاء</string>
+    <string name="cat_house_electrical">إصلاحات كهرباء وسباكة ودهانات</string>
+    <string name="cat_house_appliances">أجهزة منزلية</string>
+    <string name="cat_house_furniture">أثاث ومفروشات</string>
+    <string name="cat_house_bills">فواتير</string>
+    <string name="cat_house_cleaning">منظفات ومستلزمات</string>
+    <!-- Category labels (Work) -->
+    <string name="cat_work_office">أدوات مكتبية</string>
+    <string name="cat_work_maintenance">صيانة أجهزة العمل</string>
+    <string name="cat_work_subscriptions">اشتراكات برامج</string>
+    <string name="cat_work_hospitality">ضيافة واجتماعات</string>
+    <string name="cat_work_transport">انتقالات العمل</string>
+    <string name="cat_work_shipping">شحن وتوصيل</string>
+    <!-- Category labels (Personal) -->
+    <string name="cat_personal_food">مأكولات ومشروبات</string>
+    <string name="cat_personal_transport">انتقالات</string>
+    <string name="cat_personal_clothes">ملابس</string>
+    <string name="cat_personal_health">صحة وعناية شخصية</string>
+    <string name="cat_personal_entertainment">ترفيه</string>
+    <string name="cat_personal_gifts">هدايا</string>
+    <string name="cat_personal_subscriptions">اشتراكات شخصية</string>
+    <string name="cat_personal_bills">فواتير واتصالات</string>
+    <!-- Category labels (Vehicle) -->
+    <string name="cat_vehicle_gasoline_92">بنزين 92</string>
+    <string name="cat_vehicle_gasoline_95">بنزين 95</string>
+    <string name="cat_vehicle_gasoline_80">بنزين 80</string>
+    <string name="cat_vehicle_diesel">سولار</string>
+    <string name="cat_vehicle_gas">غاز طبيعي</string>
+    <string name="cat_vehicle_maintenance">صيانة دورية وزيوت</string>
+    <string name="cat_vehicle_spare_parts">قطع غيار وإطارات</string>
+    <string name="cat_vehicle_wash">غسيل وتنظيف</string>
+    <!-- Category labels (Education) -->
+    <string name="cat_edu_lessons">دروس خصوصية</string>
+    <string name="cat_edu_school_fees">مصروفات مدرسية</string>
+    <string name="cat_edu_books">كتب ومذكرات</string>
+    <string name="cat_edu_bus">أتوبيس المدرسة</string>
+    <string name="cat_edu_supplies">مستلزمات</string>
+    <string name="cat_edu_allowance">مصروف شخصي</string>
+    <!-- Category labels (Medical) -->
+    <string name="cat_medical_consultation">كشف</string>
+    <string name="cat_medical_medication">دواء</string>
+    <string name="cat_medical_lab">تحليل</string>
+    <string name="cat_medical_surgery">عملية</string>
+    <string name="cat_medical_emergency">طوارئ</string>
+    <string name="cat_medical_followup">متابعة</string>
+    <!-- Common -->
+    <string name="cat_other">أخرى</string>
+
+    <!-- Education stages -->
+    <string name="stage_kindergarten">رياض أطفال</string>
+    <string name="stage_primary">ابتدائي</string>
+    <string name="stage_prep">إعدادي</string>
+    <string name="stage_secondary">ثانوي</string>
+    <string name="stage_university">جامعة</string>
+
+    <!-- Recent operations -->
+    <string name="recent_no_amount">—</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="add_button_label">إضافة</string>
+    <string name="edit_button_label">تعديل</string>
+    <string name="delete_button_label">حذف</string>
+
+    <!-- Vehicle form fields -->
+    <string name="field_quantity">الكمية</string>
+    <string name="field_unit_price">سعر الوحدة</string>
+    <string name="field_odometer">عداد المسافة (كم)</string>
+    <string name="field_time_optional">الوقت (اختياري)</string>
+    <string name="field_supply_name">اسم المستلزم / قطعة الغيار</string>
+    <string name="field_supply_price">سعر المستلزمات</string>
+    <string name="field_labor_desc">وصف الأجور</string>
+    <string name="field_labor_price">قيمة الأجور</string>
+    <string name="field_service_type">نوع الخدمة</string>
+    <string name="field_brand">العلامة التجارية</string>
+    <string name="field_product_name">اسم المنتج</string>
+    <string name="field_price">السعر</string>
+    <string name="field_interval_km">الفترة المقترحة (كم)</string>
+    <string name="field_vehicle_id_optional">معرف المركبة (اختياري)</string>
+    <string name="field_location">الموقع</string>
+    <string name="field_estimated_damage">تقدير الضرر</string>
+    <string name="section_accidents">الحوادث</string>
+
+    <!-- Education -->
+    <string name="no_students_yet">لا يوجد طلاب بعد</string>
+    <string name="no_students_hint">اضغط + لإضافة أول طالب</string>
+    <string name="add_student">إضافة طالب</string>
+    <string name="edit_student">تعديل طالب</string>
+    <string name="field_age">العمر</string>
+    <string name="field_age_short">سنة</string>
+    <string name="field_national_id">الرقم القومي</string>
+    <string name="field_stage">المرحلة التعليمية</string>
+    <string name="add_expense_for_student">إضافة مصروف للطالب</string>
+
+    <!-- Income & Certificates -->
+    <string name="section_monthly_income">الدخل الشهري</string>
+    <string name="section_bank_certificates">الشهادات البنكية</string>
+    <string name="no_certificates_yet">لا توجد شهادات بعد</string>
+    <string name="add_certificate">إضافة شهادة</string>
+    <string name="edit_certificate">تعديل شهادة</string>
+    <string name="field_certificate_number">رقم الشهادة</string>
+    <string name="field_annual_rate">معدل العائد السنوي (%)</string>
+    <string name="field_duration">المدة</string>
+    <string name="field_profit_frequency">دورية العائد</string>
+    <string name="field_issue_date">تاريخ الإصدار</string>
+    <string name="field_maturity_date">تاريخ الاستحقاق</string>
+    <string name="field_monthly_equivalent">العائد الشهري المكافئ</string>
+    <string name="field_monthly_profit_preview">معاينة العائد الشهري</string>
+    <string name="freq_monthly">شهري</string>
+    <string name="freq_quarterly">ربع سنوي</string>
+    <string name="freq_semi_annual">نصف سنوي</string>
+    <string name="freq_annual">سنوي</string>
+    <string name="freq_on_maturity">عند الاستحقاق</string>
+    <string name="field_salary">الراتب</string>
+    <string name="field_bonuses">المكافآت</string>
+    <string name="field_other_income">دخل آخر</string>
+    <string name="field_other_income_note">ملاحظة الدخل الآخر</string>
+
+    <!-- Current account -->
+    <string name="section_current_account">الحساب الجاري</string>
+    <string name="deposit_label">إيداع</string>
+    <string name="withdrawal_label">سحب</string>
+    <string name="field_current_account_net">الصافي</string>
+    <string name="no_transactions_yet">لا توجد عمليات بعد</string>
+    <string name="no_transactions_hint">اضغط + لإضافة أول عملية</string>
+    <string name="add_transaction">إضافة عملية</string>
+    <string name="edit_transaction">تعديل عملية</string>
+    <string name="field_description">الوصف</string>
+
+    <!-- Car income -->
+    <string name="recent_trips">أحدث الرحلات</string>
+    <string name="no_trips_yet">لا توجد رحلات بعد</string>
+    <string name="no_trips_hint">اضغط + لإضافة أول رحلة</string>
+    <string name="add_trip">إضافة رحلة</string>
+    <string name="edit_trip">تعديل رحلة</string>
+    <string name="field_trip_type">نوع الرحلة</string>
+    <string name="stat_today">اليوم</string>
+    <string name="stat_week">الأسبوع</string>
+    <string name="stat_month">الشهر</string>
+    <string name="stat_total">الإجمالي</string>
+    <string name="stat_count">العدد</string>
+    <string name="stat_avg">متوسط الأجرة</string>
+    <string name="stat_min">أقل أجرة</string>
+    <string name="stat_max">أعلى أجرة</string>
+
+    <!-- Reports -->
+    <string name="period_day">يوم</string>
+    <string name="period_week">أسبوع</string>
+    <string name="period_month">شهر</string>
+    <string name="period_range">فترة</string>
+    <string name="field_from">من</string>
+    <string name="field_to">إلى</string>
+    <string name="filter_all">الكل</string>
+    <string name="report_range_too_wide">الفترة واسعة جداً — اختر نطاق أقل من 370 يوماً.</string>
+
+    <!-- Backup error messages (translated) -->
+    <string name="err_export_failed">فشل إنشاء النسخة الاحتياطية</string>
+    <string name="err_invalid_file">الملف المختار ليس نسخة احتياطية صالحة</string>
+    <string name="err_restore_failed">فشلت الاستعادة</string>
+    <string name="err_cannot_read_file">لا يمكن قراءة الملف المختار</string>
+
+    <!-- Dashboard subtitle (corrected context) -->
+    <string name="dashboard_warning_expense_ratio">نسبة المصروفات تجاوزت 90% من الدخل</string>
+    <string name="dashboard_warning_negative_net">صافي الدخل بالسالب هذا الشهر</string>
+
+    <!-- Backup screen (translated) -->
+    <string name="backup_export_description">يصدّر كل مصروفاتك ودخلك الشهري وشهاداتك ورحلات سيارتك وطلابك وجمعياتك ومركباتك وحسابك الجاري وميزانياتك وترتيب أقسامك إلى ملف JSON واحد تقدر تشاركه أو تحفظه في أي مكان.</string>
+
+    <!-- Login screen (Stage 3.2) -->
+    <string name="login_app_name">Smart Cost</string>
+    <string name="login_badge">Pro</string>
+    <string name="login_tagline">إدارة مالية متكاملة لمصروفاتك</string>
+    <string name="login_email_label">البريد الإلكتروني</string>
+    <string name="login_email_placeholder">user@example.com</string>
+    <string name="login_password_label">كلمة المرور</string>
+    <string name="login_password_placeholder">••••••••</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="login_or">أو</string>
+    <string name="login_guest">الدخول كضيف</string>
+    <string name="login_create_account">إنشاء حساب جديد</string>
+    <string name="login_forgot_password">نسيت كلمة المرور؟</string>
+    <string name="login_invalid_credentials">البريد الإلكتروني أو كلمة المرور غير صحيحة</string>
+    <string name="login_empty_email">من فضلك أدخل البريد الإلكتروني</string>
+    <string name="login_empty_password">من فضلك أدخل كلمة المرور</string>
+
+    <!-- Home screen (Stage 3.2) -->
+    <string name="home_greeting">أهلاً، %1$s</string>
+    <string name="home_guest_name">ضيف</string>
+    <string name="home_net_income_label">صافي الدخل — %1$s</string>
+    <string name="home_total_income">إجمالي الدخل</string>
+    <string name="home_total_expenses">إجمالي المصروفات</string>
+    <string name="home_sections_card_title">أقسام التكاليف</string>
+    <string name="home_sections_card_subtitle">اضغط لإدارة كل أقسام مصروفاتك</string>
+    <string name="home_sections_card_meta">10 أقسام · 23 شاشة تفصيلية</string>
+    <string name="home_recent_operations">أحدث العمليات</string>
+    <string name="home_view_all">عرض الكل</string>
+
+    <!-- Marquee news (Stage 3.2) -->
+    <string name="marquee_added_expense">أضفت %1$s مصروف %2$s اليوم</string>
+    <string name="marquee_tip_save_20">💡 وفّر 20% من دخلك الشهري</string>
+    <string name="marquee_net_income">📈 صافي دخل الشهر: %1$s</string>
+    <string name="marquee_tip_certificates">💡 الشهادات بأعلى عائد: 18% سنوياً</string>
+    <string name="marquee_savings_rate">💰 نسبة الادخار: %1$d%%</string>
+    <string name="marquee_expense_warning">⚠️ نسبة المصروفات تجاوزت 90% من الدخل</string>
+
+    <!-- Profile (Stage 3.2) -->
+    <string name="profile_guest_email">guest@smartcost.pro</string>
+    <string name="profile_logout">تسجيل الخروج</string>
+
+    <!-- Login (Stage 3.3 — Firebase + Biometric + OTP) -->
+    <string name="login_biometric">الدخول بالبصمة</string>
+    <string name="login_google">المتابعة بحساب Google</string>
+    <string name="login_no_account_question">ليس لديك حساب؟</string>
+    <string name="login_already_have_account">لديك حساب؟ تسجيل الدخول</string>
+    <string name="login_back_to_login">العودة لتسجيل الدخول</string>
+
+    <!-- Register (Stage 3.3) -->
+    <string name="register_title">إنشاء حساب جديد</string>
+    <string name="register_confirm_password">تأكيد كلمة المرور</string>
+    <string name="register_password_mismatch">كلمتا المرور غير متطابقتين</string>
+    <string name="register_weak_password">كلمة المرور يجب أن تكون 6 أحرف على الأقل</string>
+    <string name="register_button">إنشاء الحساب</string>
+    <string name="register_email_exists">هذا البريد مُسجّل مسبقاً</string>
+
+    <!-- Forgot password (Stage 3.3) -->
+    <string name="forgot_password_title">استعادة كلمة المرور</string>
+    <string name="forgot_password_subtitle">أدخل بريدك الإلكتروني وسنرسل لك رمز تحقق من 6 أرقام صالح لمدة 10 دقائق</string>
+    <string name="forgot_password_send_otp">إرسال الرمز</string>
+
+    <!-- OTP verification (Stage 3.3) -->
+    <string name="otp_title">إدخال رمز التحقق</string>
+    <string name="otp_subtitle">أرسلنا رمزاً من 6 أرقام إلى %1$s</string>
+    <string name="otp_label">رمز التحقق</string>
+    <string name="otp_verify">تأكيد الرمز</string>
+    <string name="otp_invalid">الرمز غير صحيح</string>
+    <string name="otp_expired">انتهت صلاحية الرمز — اطلب رمزاً جديداً</string>
+    <string name="otp_not_found">لم يُطلب رمز لهذا البريد</string>
+    <string name="otp_used">تم استخدام هذا الرمز من قبل</string>
+    <string name="otp_sent_success">تم إرسال الرمز إلى بريدك</string>
+    <string name="otp_resend">إعادة إرسال الرمز</string>
+    <string name="otp_validity_hint">الرمز صالح لمدة 10 دقائق فقط</string>
+
+    <!-- Reset password (Stage 3.3) -->
+    <string name="reset_password_title">تعيين كلمة مرور جديدة</string>
+    <string name="reset_password_subtitle">أدخل كلمة المرور الجديدة مرتين، ويجب أن تكونا متطابقتين</string>
+    <string name="reset_password_new">كلمة المرور الجديدة</string>
+    <string name="reset_password_confirm">تأكيد كلمة المرور الجديدة</string>
+    <string name="reset_password_button">تعيين كلمة المرور</string>
+    <string name="reset_password_success">تم تغيير كلمة المرور بنجاح — سجّل الدخول الآن</string>
+
+    <!-- Generic auth errors -->
+    <string name="auth_unknown_error">حدث خطأ غير متوقع — حاول مرة أخرى</string>
+</resources>

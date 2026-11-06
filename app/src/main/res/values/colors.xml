@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#0F7B5C</color>
+    <color name="brand_primary_dark">#0A4A38</color>
+    <color name="brand_accent">#F4B400</color>
+    <color name="brand_surface_light">#FFFBF8</color>
+    <color name="brand_surface_dark">#0E1116</color>
+    <color name="brand_background_light">#F5F3EE</color>
+    <color name="brand_background_dark">#07090C</color>
+    <color name="brand_error">#BA1A1A</color>
+    <color name="brand_success">#1F7A3A</color>
+    <color name="brand_warning">#B45309</color>
+    <color name="brand_info">#005FB8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="ic_launcher_background">#4A9BC7</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Stage 3 fix: backup rules.
+
+  allowBackup=false in the manifest already opts out of Auto Backup, so
+  this file is now intentionally empty. Keeping the file (rather than
+  deleting the manifest attribute) so future maintainers can opt back in
+  by flipping allowBackup and selectively excluding sensitive tables
+  (students national IDs, bank certificates) here.
+-->
+<full-backup-content>
+    <!-- Intentionally empty — see allowBackup=false in the manifest. -->
+</full-backup-content>

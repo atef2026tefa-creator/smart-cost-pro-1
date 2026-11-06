@@ -1,0 +1,52 @@
+# ─────────────────────────── Secrets (NEVER commit) ───────────────────────────
+.env
+.env.*
+!.env.example
+google-services.json
+keystore.properties
+*.jks
+*.keystore
+*.pem
+*.key
+
+# ─────────────────────────── Node / Backend ───────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tar.gz
+*.zip
+backend/.env
+
+# ─────────────────────────── Android / Gradle ───────────────────────────
+*.apk
+*.aab
+*.dex
+*.class
+*.iml
+.gradle/
+build/
+out/
+captures/
+.cxx/
+local.properties
+!app/schemas/
+
+# ─────────────────────────── IDE / OS ───────────────────────────
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────── Firebase leftovers ───────────────────────────
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+*.log
+
+# ─────────────────────────── Misc ───────────────────────────
+.oracle/
+smart-cost-pro-mockup*.html
+smart_cost_pro_icon*.png

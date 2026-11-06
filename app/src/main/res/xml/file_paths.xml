@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Stage 3 fix: restricted FileProvider paths.
+
+  Previously this file exposed `external-path="."` and `cache-path="."`,
+  which gave any app holding the FileProvider URI access to the ENTIRE
+  external storage / cache root — a serious security hole. We now expose
+  only the two specific subdirectories we actually write to:
+
+    - exports/   (CSV / HTML / PDF files from the export feature)
+    - backups/   (JSON backups)
+
+  Anyone who receives a content:// URI from our FileProvider can now only
+  read those two directories — not arbitrary files.
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Files stored in app's internal filesDir (CSV, HTML, Excel exports) -->
+    <files-path
+        name="exports"
+        path="exports/" />
+
+    <!-- Backups directory (JSON backups) -->
+    <files-path
+        name="backups"
+        path="backups/" />
+</paths>
